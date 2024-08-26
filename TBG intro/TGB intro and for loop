@@ -1,0 +1,35 @@
+#include<iostream> //input/output libary: prewritten files or code
+using namespace std; //cheat code: makes iostream easier to use
+
+int main() { //Starting point of program
+	cout << "You spawn in a dark chamber room" << endl;
+	cout << "You try the door but it's locked" << endl;
+	cout << endl << endl;
+	cout << "You explored the dark room and found a key under a rug. You open the door and you realized it's a prison cell as you see rows of cells to your left and right."<< endl;
+	cout << endl;
+	cout << "You head to your right because right is always right" << endl;
+	cout << "You find a unlocked door and head upstairs" << endl;
+	cout << endl << endl;
+	cout << "You open the door upstairs and are blined by a bright light. You looked around and it looks like you are in a abadoned castle as moss and plants take over the ruin castle." << endl;
+
+	cout << endl << endl;
+
+	for (int i = 70; i < 81; i += 1)
+		cout << i << " ";
+
+	cout << endl << endl;
+
+	for (int i = 100; i < 320; i += 20)
+		cout << i << " ";
+
+	cout << endl << endl;
+
+	for (int i = 25; i > -30; i -= 5)
+		cout << i << " ";
+
+	cout << endl << endl;
+
+	for (int i = 1000; i > 5; i /= 5)
+		cout << i << " ";
+
+} //end of main 
